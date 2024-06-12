@@ -165,7 +165,7 @@ body {
   padding: 26px 20px;
 }
 .hero__menu-icon {
-  content: url("../../img/burger-menu-icon.png");
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-hamburger.png");
 }
 .hero__navigation-item:not(:last-child) {
   margin-right: 50px;
