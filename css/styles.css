@@ -597,6 +597,7 @@ body {
     height: 48px;
     flex-grow: 1;
     padding: 17px 15px;
+    width: auto;
   }
   .order__email::placeholder {
     color: rgb(43, 41, 45);
