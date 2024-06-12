@@ -852,7 +852,7 @@ body {
   display: block;
 }
 .features .advantage-title--first::before, .features .advantage-title--second::before, .features .advantage-title--third::before {
-  content: url("../../img/icon-compas.png");
+  content: url("../img/icon-compas.png");
   position: relative;
   width: 24px;
   height: 24px;
@@ -864,10 +864,10 @@ body {
   filter: brightness(0);
 }
 .features .advantage-title--second::before {
-  content: url("../../img/icon-building.png");
+  content: url("../img/icon-building.png");
 }
 .features .advantage-title--third::before {
-  content: url("../../img/icon-bucket.png");
+  content: url("../img/icon-bucket.png");
 }
 .features__banner {
   position: absolute;
