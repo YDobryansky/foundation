@@ -756,7 +756,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 360px;
-    row-gap: 26px;
+    row-gap: 20px;
     align-items: unset;
     margin-bottom: 0px;
   }
