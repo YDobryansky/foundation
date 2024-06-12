@@ -268,7 +268,7 @@ body {
     position: absolute;
     top: 0;
     max-width: 796px;
-    right: 25px;
+    right: -105px;
     z-index: 1;
   }
 }
