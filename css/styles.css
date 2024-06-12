@@ -135,6 +135,7 @@ body {
   background-color: rgb(255, 255, 255);
   padding: 0px 0 0px 15px;
   justify-content: space-between;
+  margin-bottom: 35px;
 }
 .header .action-button {
   display: none;
@@ -172,7 +173,7 @@ body {
   margin-right: 50px;
 }
 .headline {
-  padding: 35px 0px 33px;
+  padding: 0 0px 33px;
   box-sizing: border-box;
   position: relative;
 }
@@ -221,6 +222,7 @@ body {
     padding: 0 130px;
     box-sizing: border-box;
     background-color: transparent;
+    margin-bottom: 77px;
   }
   .header .action-button {
     display: block;
@@ -235,7 +237,7 @@ body {
     display: none;
   }
   .headline {
-    margin: 77px auto 0;
+    margin: 0 auto;
     padding: 0 130px;
   }
   .headline__content {
