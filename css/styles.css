@@ -585,7 +585,7 @@ body {
     gap: 10px;
   }
   .order__form .action-button {
-    width: 160px;
+    width: initial;
   }
   .order__email {
     font-size: 18px;
