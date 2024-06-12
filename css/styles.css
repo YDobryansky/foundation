@@ -759,7 +759,7 @@ body {
   .footer__add-menu {
     flex-direction: row;
     gap: 26px;
-    margin: 0;
+    margin: 17px 0 0;
   }
   .footer__add-menu-column {
     max-width: 265px;
