@@ -130,16 +130,16 @@ body {
   background: rgb(243, 198, 189);
   padding-top: 0;
 }
-.hero__header {
+.header {
   display: flex;
   background-color: rgb(255, 255, 255);
   padding: 0px 0 0px 15px;
   justify-content: space-between;
 }
-.hero__header .action-button {
+.header .action-button {
   display: none;
 }
-.hero__header .logo__description {
+.header .logo__description {
   display: none;
 }
 .hero__navigation {
