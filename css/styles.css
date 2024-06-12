@@ -24,7 +24,6 @@ body {
   margin: 8px 0;
   display: flex;
   gap: 13px;
-  /* Elements */
 }
 .logo__image {
   width: 48px;
@@ -93,7 +92,6 @@ body {
   margin-bottom: 2px;
 }
 
-/*Features, Team Inbox, Communicate Better, Engage Visitors contant block*/
 .blocks-content {
   text-align: left;
 }
@@ -127,7 +125,6 @@ body {
   text-align: center;
 }
 
-/* Block */
 .hero {
   background: rgb(243, 198, 189);
   padding-top: 0;
@@ -604,7 +601,6 @@ body {
 .footer {
   display: flex;
   flex-direction: column;
-  /* Elements */
 }
 .footer .logo {
   margin: 0;
@@ -885,4 +881,3 @@ body {
     display: none;
   }
 }
-/*# sourceMappingURL=styles.css.map */
