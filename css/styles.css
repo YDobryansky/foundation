@@ -214,15 +214,15 @@ body {
   .hero {
     padding: 39px 0 126px;
   }
-  .hero__header {
+  .header {
     padding: 0 130px;
     box-sizing: border-box;
     background-color: transparent;
   }
-  .hero__header .action-button {
+  .header .action-button {
     display: block;
   }
-  .hero__header .logo__description {
+  .header .logo__description {
     display: block;
   }
   .hero__navigation {
