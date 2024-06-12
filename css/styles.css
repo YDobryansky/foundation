@@ -551,7 +551,7 @@ body {
     background-color: rgb(244, 245, 247);
     display: flex;
     flex-direction: row;
-    gap: 132px;
+    gap: 122px;
     align-items: center;
   }
   .order__details {
@@ -564,7 +564,7 @@ body {
     margin-top: 17px;
   }
   .order__ilustration {
-    width: 350px;
+    width: 360px;
   }
   .order__ilustration-img {
     width: 270px;
