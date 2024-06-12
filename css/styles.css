@@ -468,7 +468,7 @@ body {
   display: flex;
   gap: 40px;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 .order__details {
   width: 100%;
@@ -491,7 +491,7 @@ body {
   line-height: 40px;
   letter-spacing: -0.25px;
   margin: 0 0 18px;
-  text-align: center;
+  text-align: left;
 }
 .order__text {
   font-size: 22px;
