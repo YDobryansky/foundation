@@ -192,7 +192,7 @@ body {
   letter-spacing: -0.31px;
   text-align: left;
   max-width: 754px;
-  margin: 0 0 34px;
+  margin: 0 0 30px;
 }
 .headline__description {
   color: rgb(43, 41, 45);
@@ -251,7 +251,6 @@ body {
     font-size: 80px;
     line-height: 78px;
     max-width: 754px;
-    margin: 0 0 34px;
     letter-spacing: 0;
   }
   .headline__description {
