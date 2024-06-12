@@ -204,6 +204,9 @@ body {
   display: flex;
   gap: 15px;
   flex-direction: column;
+  .action-button{
+    width:100%;
+  }
 }
 .headline__banner {
   position: inherit;
@@ -256,6 +259,9 @@ body {
   .headline__actions {
     gap: 10px;
     flex-direction: row;
+    .action-button{
+      width: inherit;
+    }
   }
   .headline__banner {
     position: absolute;
