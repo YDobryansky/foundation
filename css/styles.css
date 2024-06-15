@@ -216,7 +216,7 @@ body {
 
 @media screen and (min-width: 430px) {
   .hero {
-    padding: 39px 130px 126px;
+    padding: 39px 130px 76px;
   }
   .header {
     padding: 0;
@@ -249,10 +249,10 @@ body {
   }
   .headline__title {
     font-size: 76px;
-    line-height: 74px;
+    line-height: 76px;
     max-width: 754px;
-    letter-spacing: -0.5px;
-    margin: 0 0 35px;
+    letter-spacing: -0.6px;
+    margin: 0 0 40px;
   }
   .headline__description {
     max-width: 456px;
@@ -261,6 +261,7 @@ body {
   .headline__actions {
     gap: 10px;
     flex-direction: row;
+    margin-bottom: 50px;
     .action-button{
       width: inherit;
     }
