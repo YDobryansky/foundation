@@ -253,7 +253,7 @@ body {
     font-size: 78px;
     line-height: 78px;
     max-width: 754px;
-    letter-spacing: -0.6px;
+    letter-spacing: -0.3px;
     margin: 0 0 45px;
   }
   .headline__description {
@@ -263,7 +263,7 @@ body {
   .headline__actions {
     gap: 10px;
     flex-direction: row;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
     .action-button{
       width: inherit;
     }
