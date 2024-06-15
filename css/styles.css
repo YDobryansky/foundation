@@ -567,7 +567,7 @@ body {
     flex-wrap: nowrap;
     align-items: flex-start;
     color: rgb(43, 41, 45);
-    margin-top: 17px;
+    margin-top: 0px;
   }
   .order__ilustration {
     width: 370px;
@@ -604,7 +604,7 @@ body {
   .order__email {
     font-size: 18px;
     line-height: 13px;
-    text-align: center;
+    text-align: left;
     background-color: rgb(255, 255, 255);
     border: 1px solid rgba(43, 41, 45, 0.1);
     border-radius: 2px;
