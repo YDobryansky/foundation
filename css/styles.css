@@ -419,83 +419,86 @@ body {
   }
 }
 .audience {
-	 background-color: rgba(0, 161, 198, 0.07);
-	 padding: 50px 15px 50px;
-	 box-sizing: border-box;
+  background-color: rgba(0, 161, 198, 0.07);
+  padding: 50px 15px 50px;
+  box-sizing: border-box;
 }
  .audience__details {
-	 max-width: 555px;
-	 margin: 0 auto;
+  max-width: 555px;
+  margin: 0 auto;
 }
  .audience__details .blocks-content__subtitle {
-	 margin: 0 0 17px;
+  margin: 0 0 17px;
 }
  .audience__details .blocks-content__title {
-	 font-size: 40px;
-	 line-height: 40px;
-	 letter-spacing: -0.36px;
-	 margin: 0 0 18px;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.36px;
+  margin: 0 0 18px;
 }
  .audience__details .blocks-content__description {
-	 margin: 0;
+  margin: 0;
 }
  .audience__actions {
-	 margin: 30px 0 40px;
-	 display: flex;
-	 flex-direction: column;
-	 justify-content: center;
-	 column-gap: 10px;
+  margin: 30px 0 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  .action-button {
+    width:100%;
+  }
 }
  .audience__list {
-	 display: flex;
-	 gap: 30px;
-	 justify-content: center;
-	 flex-wrap: wrap;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
  .audience__card {
-	 width: 100%;
-	 display: flex;
-	 flex-direction: column;
-	 align-items: center;
-	 justify-content: center;
-	 gap: 22px;
-	 color: rgba(43, 41, 45, 1);
-	 margin: 0;
-	 padding: 22px 62px 33px;
-	 box-sizing: border-box;
-	 background-color: #fff;
-	 box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-	 border-radius: 8px;
-	 background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
-	 cursor: pointer;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  color: rgba(43, 41, 45, 1);
+  margin: 0;
+  padding: 22px 62px 33px;
+  box-sizing: border-box;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05), 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #fff;
+  cursor: pointer;
 }
  .audience__card:hover {
-	 background-color: #3142c6;
-	 color: #fff;
+  background-color: #3142c6;
+  color: #fff;
 }
  .audience__caption {
-	 font-size: 22px;
-	 font-weight: 700;
-	 line-height: 28px;
-	 letter-spacing: 0px;
-	 text-align: center;
-	 margin-top: 0;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 0;
 }
  @media screen and (min-width: 430px) {
-	 .audience {
-		 padding: 108px 130px 110px;
-	}
-	 .audience__actions {
-		 margin: 34px 0 111px;
-		 display: flex;
-		 flex-wrap: nowrap;
-		 flex-direction: row;
-		 justify-content: center;
-		 column-gap: 10px;
-	}
-	 .audience__card {
-		 width: calc((100% - 90px) / 4);
-	}
+  .audience {
+    padding: 108px 130px 110px;
+  }
+  .audience__actions {
+    margin: 34px 0 111px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 10px;
+  }
+  .audience__card {
+    width: calc((100% - 90px) / 4);
+  }
 }
 
 .order {
