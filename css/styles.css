@@ -488,6 +488,15 @@ body {
   .audience {
     padding: 108px 130px 110px;
   }
+  .audience__details .blocks-content__subtitle {
+    margin: 0 0 24px;
+  }
+  .audience__details .blocks-content__title {
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+    margin: 0 0 30px;
+  } 
   .audience__actions {
     margin: 34px 0 111px;
     display: flex;
