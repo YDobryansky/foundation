@@ -1,0 +1,32 @@
+$white-color: rgb(255, 255, 255);
+$green-color: rgb(0, 155, 77);
+$orange-color: rgb(241, 89, 43);
+$light-blue-color: rgba(0, 161, 198, 0.07);
+$blue-color: rgb(1, 137, 209);
+$dark-blue-color: rgb(49, 66, 198);
+$main-font-family: 'Work Sans', sans-serif;
+
+$main-bg-color: rgb(243, 198, 189);
+$gray-bg-color: rgb(244, 245, 247);
+
+$main-text-color: rgba(43, 41, 45, 1);
+$secondary-text-color: rgba(43, 41, 45, 0.6);
+$secondary-button-text-color: rgb(48, 64, 196);
+
+$main-button-shadow:
+  0px 4px 6px 0px rgba(0, 0, 0, 0.05),
+  0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+  inset 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+$main-button-bg-color: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0) 100%
+  ),
+  rgb(48, 64, 196);
+$secondary-button-bg-color: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0) 100%
+  ),
+  rgb(255, 255, 255);
+$hr-bg-color: rgba(43, 41, 45, 0.1);

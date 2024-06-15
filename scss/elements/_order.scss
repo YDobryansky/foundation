@@ -1,0 +1,149 @@
+.order {
+  padding: 50px 15px;
+  background-color: rgb(244, 245, 247);
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+
+  &__details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: rgb(43, 41, 45);
+  }
+
+  &__ilustration {
+    width: auto;
+    display: flex;
+    justify-content: flex-end;
+    &-img {
+      width: 200px;
+    }
+  }
+
+  &__title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -0.25px;
+    margin: 0 0 18px;
+    text-align: center;
+  }
+
+  &__text {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    margin: 0 0 70px;
+  }
+
+  &__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    .action-button {
+      width: 100%;
+    }
+  }
+
+  &__email {
+    font-size: 18px;
+    line-height: 13px;
+    text-align: center;
+    background-color: $white-color;
+    border: 1px solid $hr-bg-color;
+    border-radius: 2px;
+    height: 48px;
+    flex-grow: 1;
+    padding: 17px 15px;
+    width: 100%;
+
+    &::placeholder {
+      color: $main-text-color;
+    }
+  }
+
+  &__terms {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: $secondary-text-color;
+    margin: 10px 0 0;
+  }
+
+  &__terms-link {
+    color: rgb(49, 66, 198);
+    text-decoration: underline;
+  }
+}
+@media screen and (min-width: 430px) {
+  .order {
+    padding: 73px 130px;
+    background-color: $gray-bg-color;
+    display: flex;
+    flex-direction: row;
+    gap: 122px;
+    align-items: center;
+
+    &__details {
+      width: 555px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: flex-start;
+      color: $main-text-color;
+    }
+
+    &__ilustration {
+      width: 360px;
+      &-img {
+        width: 270px;
+      }
+    }
+
+    &__title {
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 40px;
+      letter-spacing: -0.25px;
+      margin: 0 0 12px;
+      text-align: left;
+    }
+
+    &__text {
+      font-size: 22px;
+      line-height: 32px;
+      letter-spacing: 0px;
+      margin: 0 0 26px;
+    }
+    &__form {
+      width: 100%;
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+    }
+    &__email {
+      font-size: 18px;
+      line-height: 13px;
+      text-align: left;
+      background-color: $white-color;
+      border: 1px solid $hr-bg-color;
+      border-radius: 2px;
+      height: 48px;
+      flex-grow: 1;
+      padding: 17px 15px;
+
+      &::placeholder {
+        color: $main-text-color;
+      }
+    }
+  }
+}
