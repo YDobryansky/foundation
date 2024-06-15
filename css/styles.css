@@ -474,7 +474,7 @@ body {
   padding: 50px 15px;
   background-color: rgb(244, 245, 247);
   display: flex;
-  gap: 40px;
+  gap: 35px;
   flex-direction: column;
   align-items: center;
 }
@@ -504,9 +504,9 @@ body {
 }
 .order__text {
   font-size: 22px;
-  line-height: 35px;
+  line-height: 30px;
   letter-spacing: 0px;
-  margin: 0px 0 60px
+  margin: 0px 0 70px
 }
 .order__form {
   width: 100%;
