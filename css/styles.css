@@ -253,7 +253,7 @@ body {
     font-size: 78px;
     line-height: 78px;
     max-width: 754px;
-    letter-spacing: -0.3px;
+    letter-spacing: -0.5px;
     margin: 0 0 45px;
   }
   .headline__description {
@@ -274,7 +274,7 @@ body {
     max-width: 796px;
     right: 0px;/*-105*/
     z-index: 1;
-    padding-top: 5px;
+    padding-top: 10px;
   }
 }
 .about {
