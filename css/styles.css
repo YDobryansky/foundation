@@ -251,7 +251,8 @@ body {
     font-size: 76px;
     line-height: 74px;
     max-width: 754px;
-    letter-spacing: 0;
+    letter-spacing: -0.5px;
+    margin: 0 0 35px;
   }
   .headline__description {
     max-width: 456px;
