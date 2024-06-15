@@ -272,7 +272,7 @@ body {
     position: absolute;
     top: 0;
     max-width: 796px;
-    right: -105px;
+    right: -25px;/*-105*/
     z-index: 1;
   }
 }
