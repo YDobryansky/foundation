@@ -239,7 +239,7 @@ body {
   .headline {
     margin: 0 auto;
     padding: 0;
-    margin-left: -50px;/**/
+    margin-left: -60px;/**/
     margin-right: -30px;/**/
   }
   .headline__content {
@@ -272,7 +272,7 @@ body {
     position: absolute;
     top: 0;
     max-width: 796px;
-    right: -35px;/*-105*/
+    right: -5px;/*-105*/
     z-index: 1;
     padding-top: 5px;
   }
