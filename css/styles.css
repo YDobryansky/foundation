@@ -451,7 +451,7 @@ body {
 }
  .audience__list {
   display: flex;
-  gap: 30px;
+  gap: 15px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -495,6 +495,12 @@ body {
     flex-direction: row;
     justify-content: center;
     column-gap: 10px;
+  }
+    .audience__list {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
   }
   .audience__card {
     width: calc((100% - 90px) / 4);
