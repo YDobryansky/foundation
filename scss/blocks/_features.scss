@@ -37,13 +37,16 @@
     &:hover {
       border-bottom: 3px solid $dark-blue-color;
 
-      .advantage-title--first,
-      .advantage-title--second,
-      .advantage-title--third {
-        color: $dark-blue-color;
-        cursor: pointer;
-        &::before {
-          filter: brightness(1);
+      .advantage {
+        &-title--first,
+        &-title--second,
+        &-title--third {
+          color: $dark-blue-color;
+          cursor: pointer;
+
+          &::before {
+            filter: brightness(1);
+          }
         }
       }
     }
