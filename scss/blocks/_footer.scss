@@ -1,0 +1,198 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+
+  /* Elements */
+  .logo {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    &__text {
+      align-items: center;
+    }
+  }
+  &__about-company-line {
+    display: block;
+    width: 120%;
+    margin: 0 0 0 -10%;
+    border: 0;
+    border-top: 1px solid rgba(43, 41, 45, 0.1);
+  }
+  &__navigation {
+    padding: 40px 15px 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    flex-direction: column;
+  }
+  &__about-company {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    row-gap: 26px;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  &__description {
+    margin: 0;
+    color: $secondary-text-color;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    display: none;
+  }
+  &__downloads {
+    display: flex;
+    gap: 10px;
+
+    &-item {
+      cursor: pointer;
+    }
+  }
+
+  &__add-menu {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+    margin: 30px 0 0;
+
+    &-column {
+      width: 100%;
+
+      &-title {
+        margin: 0;
+        color: $main-text-color;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 18px;
+      }
+
+      &-list {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        color: $secondary-text-color;
+        font-size: 18px;
+        line-height: 30px;
+        letter-spacing: 0px;
+        text-align: left;
+      }
+
+      &-item {
+        cursor: pointer;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__line {
+    display: none;
+  }
+
+  &__links {
+    padding: 0 15px 23px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  &__terms {
+  }
+  &__terms-item {
+    color: $secondary-text-color;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 21px;
+    cursor: pointer;
+  }
+  &__social-links {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+  &__social-links-item {
+    cursor: pointer;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .footer {
+    .logo {
+      margin: 8px 0;
+      flex-direction: row;
+      align-items: unset;
+      gap: 15px;
+      &__text {
+        align-items: unset;
+      }
+    }
+    &__about-company-line {
+      display: none;
+    }
+    &__navigation {
+      padding: 43px 130px 59px;
+      box-sizing: border-box;
+      display: flex;
+      flex-wrap: nowrap;
+      gap: 128px;
+      flex-direction: row;
+    }
+    &__about-company {
+      display: flex;
+      flex-direction: column;
+      max-width: 360px;
+      row-gap: 26px;
+      align-items: unset;
+      margin-bottom: 0px;
+    }
+    &__description {
+      display: block;
+    }
+    &__add-menu {
+      flex-direction: row;
+      gap: 26px;
+      margin: 0;
+      &-column {
+        max-width: 265px;
+        width: calc((100% - 26px) / 2);
+      }
+    }
+
+    &__line {
+      display: block;
+    }
+
+    &__links {
+      height: 50px;
+      padding: 0 130px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      align-items: center;
+    }
+    &__line {
+      width: 100%;
+      margin: 0;
+      border: 0;
+      border-top: 1px solid $hr-bg-color;
+    }
+  }
+}

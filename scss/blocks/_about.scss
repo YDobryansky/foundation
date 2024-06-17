@@ -1,0 +1,36 @@
+.about {
+  background-color: $gray-bg-color;
+  padding: 46px 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  &__article {
+    width: 100%;
+    color: $main-text-color;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+
+    &-title {
+      margin: 0 0 20px;
+    }
+    &-text {
+      margin: 0;
+    }
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .about {
+    padding: 77px 130px;
+    flex-direction: row;
+    gap: 29px;
+
+    &__article {
+      width: calc((100% - 29px) / 2);
+    }
+  }
+}
