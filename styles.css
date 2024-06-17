@@ -88,7 +88,7 @@ body {
   display: inline-block;
   height: 5px;
   width: 8px;
-  background-image: url("../img/arrow.png");
+  background-image: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png");
   margin-left: 11px;
   margin-bottom: 2px;
 }
@@ -912,7 +912,7 @@ body {
   display: block;
 }
 .features .advantage-title--first::before, .features .advantage-title--second::before, .features .advantage-title--third::before {
-  content: url("../img/icon-compas.png");
+  content: url("https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon-compas.png");
   position: relative;
   width: 24px;
   height: 24px;
