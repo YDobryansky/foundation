@@ -16,26 +16,25 @@
       &__description {
         display: none;
       }
+    }  
+
+    &__navigation {
+      margin-left: auto;
+      margin-top: 7px;
+      margin-right: 75px;
+      display: none;
+    }
+  
+    &__navigation-item {
+      color: $main-text-color;
+      line-height: 25px;
+      letter-spacing: 0px;
+      text-decoration: none;
+      &--selected {
+        font-weight: 700;
+      }
     }
   }
-
-  &__navigation {
-    margin-left: auto;
-    margin-top: 7px;
-    margin-right: 75px;
-    display: none;
-  }
-
-  &__navigation-item {
-    color: $main-text-color;
-    line-height: 25px;
-    letter-spacing: 0px;
-    text-decoration: none;
-    &--selected {
-      font-weight: 700;
-    }
-  }
-
   &__menu-button {
     display: flex;
     align-items: center;
