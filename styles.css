@@ -924,10 +924,10 @@ body {
   filter: brightness(0);
 }
 .features .advantage-title--second::before {
-  content: url("../img/icon-building.png");
+  content: url("./img/icon-building.png");
 }
 .features .advantage-title--third::before {
-  content: url("../img/icon-bucket.png");
+  content: url("./img/icon-bucket.png");
 }
 .features__banner {
   position: absolute;
