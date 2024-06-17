@@ -230,10 +230,10 @@ body {
   .header .logo__description {
     display: block;
   }
-  .hero__navigation {
+  .header__navigation {
     display: block;
   }
-  .hero__menu-button {
+  .header__menu-button {
     display: none;
   }
   .headline {
