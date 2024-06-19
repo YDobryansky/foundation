@@ -25,6 +25,12 @@ body {
   display: flex;
   gap: 13px;
 }
+.logo--footer {
+  margin: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
 .logo__image {
   width: 48px;
   height: 48px;
@@ -40,6 +46,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+.logo__text--footer {
+  align-items: center;
 }
 .logo__name {
   font-size: 20px;
