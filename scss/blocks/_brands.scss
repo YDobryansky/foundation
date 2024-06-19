@@ -33,7 +33,7 @@
     background-color: $white-color;
     border-bottom: 0;
     &__item {
-      width: calc((100%) / 6);
+      flex: 1;
       margin: 0;
       display: initial;
     }
