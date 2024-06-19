@@ -2,6 +2,12 @@
   margin: 8px 0;
   display: flex;
   gap: 13px;
+  &--footer{
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
   /* Elements */
   &__image {
@@ -20,6 +26,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    &--footer{
+      align-items: center;
+    }
   }
 
   &__name {
