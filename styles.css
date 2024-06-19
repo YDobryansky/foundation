@@ -874,9 +874,7 @@ body {
 .features__advantage:hover {
   border-bottom: 3px solid rgb(49, 66, 198);
 }
-.features__advantage:hover .advantage-title--first,
-.features__advantage:hover .advantage-title--second,
-.features__advantage:hover .advantage-title--third {
+.features__advantage:hover .features__advantage-title{
   color: rgb(49, 66, 198);
   cursor: pointer;
 }
