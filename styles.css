@@ -905,7 +905,7 @@ body {
   margin: 20px 0 0;
   display: none;
 }
-.features .advantage-title--first ~ .features__advantage-description {
+.features__advantage:nth-child(1) > .features__advantage-description {
   display: block;
 }
 .features__banner {
