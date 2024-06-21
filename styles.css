@@ -248,8 +248,8 @@ body {
   .headline {
     margin: 0 auto;
     padding: 0;
-    /*margin-left: -80px;
-    margin-right: -25px;*/
+    margin-left: -80px;
+    margin-right: -25px;/**/
   }
   .headline__content {
     display: flex;
@@ -281,7 +281,7 @@ body {
     position: absolute;
     top: 0;
     max-width: 796px;
-    right: -105px;/*0*/
+    right: 0px;/*-105*/
     z-index: 1;
     padding-top: 8px;
   }
